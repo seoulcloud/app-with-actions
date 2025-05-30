@@ -11,7 +11,7 @@ jobs:
       run: touch actions-file.log
     
     - name: From Github Actions to AWS EC2 through SCP
-      uses: appleboy/scp-action@v0.1.7
+      uses: appleboy/scp-action@v1
       with: 
         host: ${{ secrets.EC2_HOST }}
         username: ${{ secrets.EC2_USERNAME }}
