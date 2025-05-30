@@ -12,7 +12,7 @@ jobs:
       - name: File made by Github Actions ubuntu
         run: touch actions-file.log
 
-      - name: 디버그: 현재 디렉토리 목록 출력
+      - name: Debug
         run: ls -al
 
       - name: From Github Actions to AWS EC2 through SCP
